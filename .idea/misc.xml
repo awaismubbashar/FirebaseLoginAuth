@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/drawable-v24/edit_text_bg.xml" value="0.1735" />
         <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/layout/activity_otpactivity.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/layout/activity_sign_up.xml" value="0.2359375" />
+        <entry key="..\:/Users/Lenovo-G15/AndroidStudioProjects/FirebaseLoginAuth2/app/src/main/res/layout/fragment_o_t_p.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,13 +1,13 @@
-package com.example.firebaseloginauth
+package com.example.firebaseloginauth.activity
 
 import android.app.Activity
 import android.content.Intent
-import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.firebaseloginauth.R
 import com.example.firebaseloginauth.databinding.ActivitySignInBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -57,6 +57,10 @@ class SignInActivity : AppCompatActivity() {
 
         binding.loginWithGoogle.setOnClickListener {
             performLoginWithGoogle()
+        }
+
+        binding.loginWithOtp.setOnClickListener {
+            performLoginWithOTP()
         }
     }
 
@@ -139,5 +143,9 @@ class SignInActivity : AppCompatActivity() {
             return false
         }
         return true
+    }
+
+    private fun performLoginWithOTP() {
+        startActivity(Intent(this, OTPActivity::class.java))
     }
 }

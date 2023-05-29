@@ -1,10 +1,9 @@
-package com.example.firebaseloginauth
+package com.example.firebaseloginauth.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.firebaseloginauth.databinding.ActivitySignInBinding
 import com.example.firebaseloginauth.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 
